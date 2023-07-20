@@ -1,0 +1,188 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ff6b9a;
+}
+
+header nav ul li a:hover {
+    background-color: #ff4f83;
+}
+
+/* Estilos para el menú de contacto */
+.menucontacto {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.menucontacto li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menucontacto li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ff6b9a;
+}
+
+.menucontacto li a:hover {
+    background-color: #ff4f83;
+}
+
+/* Estilos para la sección de comunidad */
+.comunidad {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.comunidad li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.comunidad li:last-child {
+    margin-right: 0;
+}
+
+.comunidad li a {
+    color: #ff4f83;
+    text-decoration: none;
+}
+
+/* Estilos para la información de contacto */
+.info_contacto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.info_contacto h2 {
+    color: #ff4f83;
+    margin-bottom: 10px;
+}
+
+.info_contacto h3 {
+    color: #ff69b4;
+    margin-bottom: 5px;
+}
+
+.info_contacto p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de tienda */
+.tienda {
+    background-color: rgb(75, 21, 53);
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tienda img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 10px 4px rgb(12, 12, 12);
+}
+
+/* Estilos para la sección de contacto */
+.contato_contenido {
+    background-color: plum; 
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los campos del formulario */
+.contacto_input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid violet;
+    border-radius: 5px;
+    font-size: 16px;
+    color: violet;
+    background-color: lavenderblush; 
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    color: darkviolet;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la botonera */
+.botonera {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones */
+.botonera input[type="submit"],
+.botonera input[type="reset"],
+.botonera button {
+    background-color: violet;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
